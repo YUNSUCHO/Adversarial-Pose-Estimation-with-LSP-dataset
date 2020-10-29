@@ -13,23 +13,23 @@ The architecture was  proposed by [Yu Chen, Chunhua Shen, Xiu-Shen Wei, Lingqiao
 
 ## Lanmark localization 
 Before the augmentation techniques applied on the dataset
-<img src="README/Screen Shot 2020-03-31 at 9.34.51 PM.png" width="500px"/>
-
+<img src="https://github.com/YUNSUCHO/Adversarial-Pose-Enstimation/blob/main/README/Lanmark%20localization%20.png" width="500px"/>
 After the augmentation techniques applied on the dataset
-
+<img src="https://github.com/YUNSUCHO/Adversarial-Pose-Enstimation/blob/main/README/Lanmark%20localization%20(after%20augmentation).png" width="500px"/>
 
 
 ##  Results Visualization
 The results of this implementation:
 
 ### Adversarial PoseNet(In Adversarial setup using GAN framework):
-<img src="testresults-1/Adversarial-1/results_116.png" width="500px"/>
-
+<img src="https://github.com/YUNSUCHO/Adversarial-Pose-Enstimation/blob/main/README/original.png" width="500px"/>
+<img src="https://github.com/YUNSUCHO/Adversarial-Pose-Enstimation/blob/main/README/Ad%20mode.png" width="500px"/>
 
 
 
 ### Stack-hour-glass Network(In supervised setup):
-<img src="testresults-1/baseline-1/results_120.png" width="500px"/> 
+<img src="https://github.com/YUNSUCHO/Adversarial-Pose-Enstimation/blob/main/README/original.png" width="500px"/>
+<img src="https://github.com/YUNSUCHO/Adversarial-Pose-Enstimation/blob/main/README/supervised%20mod.png" width="500px"/>
 
 ### localization rate of diffent setups on the test split:
 
