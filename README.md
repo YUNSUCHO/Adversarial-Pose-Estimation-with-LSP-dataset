@@ -2,17 +2,17 @@
 
 
 
-Investigation of adversarial learning for landmark localization in 2D medical images (lower extrimites)
+Experiments on adversarial learning for pose prediction in digital images(Leeds Sports Pose Dataset)
 
 
-Pytorch implementation of chen et al. "Adversarial PoseNet" for landmark localization on medical data.
-The method was  proposed by [Yu Chen, Chunhua Shen, Xiu-Shen Wei, Lingqiao Liu, Jian Yang](https://scholar.google.com/citations?user=IWZubqUAAAAJ&hl=zh-CN) in 
+Pytorch implementation of chen et al. "Adversarial PoseNet" for landmark localization on digital images.
+The architecture was  proposed by [Yu Chen, Chunhua Shen, Xiu-Shen Wei, Lingqiao Liu, Jian Yang](https://scholar.google.com/citations?user=IWZubqUAAAAJ&hl=zh-CN) in 
 [Adversarial PoseNet: A Structure-aware Convolutional Network for Human Pose Estimation](https://arxiv.org/pdf/1705.00389). 
 
 
 
 ## Lanmark localization 
-<img src="readmeimages/inputs01.png" width="500px"/>
+<img src="README/Screen Shot 2020-03-31 at 9.34.51 PM.png" width="500px"/>
 
 
 
@@ -39,7 +39,6 @@ The results of this implementation:
 ## Main Prerequisites
 - pytorch
 - OpenCV
-- Hiwi(FH Kiel Internal package)
 - Numpy
 - Scipy-images
 - ```The list of dependencies can be found in the the requirements.txt file. Simply use pip install -r requirements.txt to install them.```
@@ -48,17 +47,16 @@ The results of this implementation:
 ## Getting Started
 ### Installation
 - Install Pytorch from https://pytorch.org/get-started/locally/
-- Clone this repo:
+- Clone this repository:
 ```bash
-git clone https://github.com/abhishekdiphu/AdversarialPoseNet-2DMedical.git
-cd AdversarialPoseNet-2DMedical
+git clone https://github.com/YUNSUCHO/Adversarial-Pose-Enstimation.git
 ```
 
 
 ## Training and Test Details
-To train a model, run any of the .sh file starting with "train". for example  
+To train a model, run any of the .sh file starting with "train". For example :  
 ```bash
-trainmodelmedical-exp-22.sh 
+Adversarialmodel-pretrain-with-keepdimension.sh 
 ```
 - A bash file has following configurations, that one can change 
 ```
@@ -75,20 +73,19 @@ python trainmodeladversarial-pos-conf-exp24.py \
 --optimizer_type Adam \
 --epochs 50 \
 --dataset  'medical' 
-
+@@@ need to change@@
 ```
-Models are saved to `./trainmodel/` (can be changed in the --modelName).  
+Models are saved to `./trainmodel/` (can be changed using the argument --modelName in .sh file).  
 
 To test the model,
 ```bash
-test.sh
+test-Adversarialmodel-pretrain-with-keepdimension.sh
 ```
 
 ## Datasets
 
 
-- `lower leg datasets`: The dataset includes around 660 2D medical images. They are grayscale in nature. each lower leg radiograph image in the dataset has been labelled with 6 joint co-ordinate, one each for distinct epiphyses parts ( bone extremities ) femur, ankle , knee for both the legs. The size of each of the image is approximately 7300 x 2800 pixels. Here in this resolution, isotopic range is .143mm = 1 px.
-The dataset is not publically available , and has been taken from the authors of the paper ,
+- ` Leeds Sports Pose Dataset`: The LSP-extended dataset contains 10,000 annotated images in the RGB nature of most sportspeople. Every image that have different sizes, since it is not quadratic. The images have scaled such that the most prominent person in the image is roughly 150 pixels in length. Each image has been annotated with 14 co-ordinate joints locations.The available body joints in the LSP-extended dataset are right ankle, right knee, right hip, left hip, left knee, left ankle, right wrist, right elbow, right shoulder, left shoulder, left elbow, left wrist, neck, head top.,
 
 ["Detection and Localization of Landmarks in the Lower Extremities Using an Automatically Learned 
 Conditional Random Field](https://www.researchgate.net/publication/319634278_Detection_and_Localization_of_Landmarks_in_the_Lower_Extremities_Using_an_Automatically_Learned_Conditional_Random_Field)
