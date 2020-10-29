@@ -36,10 +36,9 @@ The results of this implementation:
 
 ### localization rate of diffent setups on the test split:
 
-<img src="https://github.com/YUNSUCHO/Adversarial-Pose-Enstimation/blob/main/README/Screen%20Shot%202020-10-29%20at%205.26.49%20PM.png" width="250px"/><img src="https://github.com/YUNSUCHO/Adversarial-Pose-Enstimation/blob/main/README/Screen%20Shot%202020-10-29%20at%205.27.18%20PM.png" width="250px"/>
+<img src="https://github.com/YUNSUCHO/Adversarial-Pose-Enstimation/blob/main/README/Screen%20Shot%202020-10-29%20at%205.27.18%20PM.png" width="300px"/>
 
-
-
+<img src="https://github.com/YUNSUCHO/Adversarial-Pose-Enstimation/blob/main/README/Screen%20Shot%202020-10-29%20at%205.26.49%20PM.png" width="250px"/>
 
 
 ## Main Prerequisites
