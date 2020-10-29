@@ -36,7 +36,7 @@ The results of this implementation:
 
 ### localization rate of diffent setups on the test split:
 
-<img src="readmeimages/result_hist.png" width="400px"/><img src="readmeimages/result_table.png" width="400px"/>
+<img src="https://github.com/YUNSUCHO/Adversarial-Pose-Enstimation/blob/main/README/Screen%20Shot%202020-10-29%20at%205.26.49%20PM.png" width="250px"/><img src="https://github.com/YUNSUCHO/Adversarial-Pose-Enstimation/blob/main/README/Screen%20Shot%202020-10-29%20at%205.27.18%20PM.png" width="250px"/>
 
 
 
@@ -97,7 +97,7 @@ test-Adversarialmodel-pretrain-with-keepdimension.sh
 Conditional Random Field](https://www.researchgate.net/publication/319634278_Detection_and_Localization_of_Landmarks_in_the_Lower_Extremities_Using_an_Automatically_Learned_Conditional_Random_Field)
 
 
-<img src="readmeimages/lowerleg_greyscale.png" width="220px"/><img src="readmeimages/lowerleg.png" width="220px"/>   <img src="readmeimages/lowerleg_annotated.png" width="300px"/>
+<img src="https://github.com/YUNSUCHO/Adversarial-Pose-Enstimation/blob/main/README/original%20RGB%20.png" width="220px"/> 
 
 
 ## Reference
