@@ -41,7 +41,7 @@ The results of this implementation:
 - OpenCV
 - Numpy
 - Scipy-images
-- ```The list of dependencies can be found in the the requirements.txt file. Simply use pip install -r requirements.txt to install them.```
+- ```The list of dependencies can be found in the the requirements.txt file. Simply use pip install -r requirements-pytorch-posenet.txt to install them.```
 
 
 ## Getting Started
@@ -60,20 +60,20 @@ Adversarialmodel-pretrain-with-keepdimension.sh
 ```
 - A bash file has following configurations, that one can change 
 ```
-python trainmodeladversarial-pos-conf-exp24.py \
---path handmedical \
---modelName trainmodel \
+python trainmodel-adversarial-mode-exp24.py \
+--path lsp_dataset/lsp_dataset \
+--modelName pre-train-discriminator-with-LSP-keepdimension \
 --config config.default_config \
 --batch_size 1 \
 --use_gpu \
---lr .0002 \
---print_every 100 \
---train_split 0.804 \
+--gpu_device 0 \
+--lr .00025 \
+--print_every 1 \
+--train_split 0.9167 \
 --loss mse \
 --optimizer_type Adam \
---epochs 50 \
---dataset  'medical' 
-@@@ need to change@@
+--epochs 230 \
+--dataset  'lsp' 
 ```
 Models are saved to `./trainmodel/` (can be changed using the argument --modelName in .sh file).  
 
