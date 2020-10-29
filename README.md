@@ -39,7 +39,6 @@ The results of this implementation:
 ## Main Prerequisites
 - pytorch
 - OpenCV
-- Hiwi(FH Kiel Internal package)
 - Numpy
 - Scipy-images
 - ```The list of dependencies can be found in the the requirements.txt file. Simply use pip install -r requirements.txt to install them.```
@@ -48,17 +47,16 @@ The results of this implementation:
 ## Getting Started
 ### Installation
 - Install Pytorch from https://pytorch.org/get-started/locally/
-- Clone this repo:
+- Clone this repository:
 ```bash
-git clone https://github.com/abhishekdiphu/AdversarialPoseNet-2DMedical.git
-cd AdversarialPoseNet-2DMedical
+git clone https://github.com/YUNSUCHO/Adversarial-Pose-Enstimation.git
 ```
 
 
 ## Training and Test Details
-To train a model, run any of the .sh file starting with "train". for example  
+To train a model, run any of the .sh file starting with "train". For example :  
 ```bash
-trainmodelmedical-exp-22.sh 
+Adversarialmodel-pretrain-with-keepdimension.sh 
 ```
 - A bash file has following configurations, that one can change 
 ```
@@ -75,13 +73,13 @@ python trainmodeladversarial-pos-conf-exp24.py \
 --optimizer_type Adam \
 --epochs 50 \
 --dataset  'medical' 
-
+@@@ need to change@@
 ```
 Models are saved to `./trainmodel/` (can be changed in the --modelName).  
 
 To test the model,
 ```bash
-test.sh
+test-Adversarialmodel-pretrain-with-keepdimension.sh
 ```
 
 ## Datasets
