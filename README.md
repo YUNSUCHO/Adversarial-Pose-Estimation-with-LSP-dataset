@@ -75,7 +75,7 @@ python trainmodeladversarial-pos-conf-exp24.py \
 --dataset  'medical' 
 @@@ need to change@@
 ```
-Models are saved to `./trainmodel/` (can be changed using --modelName in .sh file).  
+Models are saved to `./trainmodel/` (can be changed using the argument --modelName in .sh file).  
 
 To test the model,
 ```bash
