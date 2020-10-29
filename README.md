@@ -92,8 +92,6 @@ test-Adversarialmodel-pretrain-with-keepdimension.sh
 
 - ` Leeds Sports Pose Dataset`: The LSP-extended dataset contains 10,000 annotated images in the RGB nature of most sportspeople. Every image that have different sizes, since it is not quadratic. The images have scaled such that the most prominent person in the image is roughly 150 pixels in length. Each image has been annotated with 14 co-ordinate joints locations.The available body joints in the LSP-extended dataset are right ankle, right knee, right hip, left hip, left knee, left ankle, right wrist, right elbow, right shoulder, left shoulder, left elbow, left wrist, neck, head top.,
 
-["Detection and Localization of Landmarks in the Lower Extremities Using an Automatically Learned 
-Conditional Random Field](https://www.researchgate.net/publication/319634278_Detection_and_Localization_of_Landmarks_in_the_Lower_Extremities_Using_an_Automatically_Learned_Conditional_Random_Field)
 
 
 <img src="https://github.com/YUNSUCHO/Adversarial-Pose-Enstimation/blob/main/README/original%20RGB%20.png" width="400px"/> 
