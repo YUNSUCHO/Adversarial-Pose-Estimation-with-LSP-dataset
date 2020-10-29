@@ -2,7 +2,7 @@
 
 
 
-Experiments on adversarial learning for pose prediction in digital images(Leeds Sports Pose Dataset)
+Investigation on adversarial learning for pose prediction in Leeds Sports Pose Dataset
 
 
 Pytorch implementation of chen et al. "Adversarial PoseNet" for landmark localization on digital images.
@@ -12,20 +12,23 @@ The architecture was  proposed by [Yu Chen, Chunhua Shen, Xiu-Shen Wei, Lingqiao
 
 
 ## Lanmark localization 
+Before the augmentation techniques applied on the dataset
 <img src="README/Screen Shot 2020-03-31 at 9.34.51 PM.png" width="500px"/>
+
+After the augmentation techniques applied on the dataset
 
 
 
 ##  Results Visualization
 The results of this implementation:
 
-### Adversarial PoseNet:
+### Adversarial PoseNet(In Adversarial setup using GAN framework):
 <img src="testresults-1/Adversarial-1/results_116.png" width="500px"/>
 
 
 
 
-### Stack-hour-glass Network(supervised setup):
+### Stack-hour-glass Network(In supervised setup):
 <img src="testresults-1/baseline-1/results_120.png" width="500px"/> 
 
 ### localization rate of diffent setups on the test split:
