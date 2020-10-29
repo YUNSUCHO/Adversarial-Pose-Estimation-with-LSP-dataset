@@ -13,11 +13,11 @@ The architecture was  proposed by [Yu Chen, Chunhua Shen, Xiu-Shen Wei, Lingqiao
 
 ## Lanmark localization 
 
-Before the augmentation techniques applied on the dataset
 <img src="https://github.com/YUNSUCHO/Adversarial-Pose-Enstimation/blob/main/README/Lanmark%20localization%20.png" width="300px"/>
+Before the augmentation techniques applied on the dataset
 
-After the augmentation techniques applied on the dataset
 <img src="https://github.com/YUNSUCHO/Adversarial-Pose-Enstimation/blob/main/README/Lanmark%20localization%20(after%20augmentation).png" width="300px"/>
+After the augmentation techniques applied on the dataset
 
 
 ##  Results Visualization
