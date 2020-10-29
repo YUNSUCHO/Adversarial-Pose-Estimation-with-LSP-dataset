@@ -12,7 +12,7 @@ The method was  proposed by [Yu Chen, Chunhua Shen, Xiu-Shen Wei, Lingqiao Liu, 
 
 
 ## Lanmark localization 
-<img src="readmeimages/inputs01.png" width="500px"/>
+<img src="README/Screen Shot 2020-03-31 at 9.34.51 PM.png" width="500px"/>
 
 
 
