@@ -1,0 +1,197 @@
+Script started on 2020-05-31 11:50:47+02:00 [TERM="screen" TTY="/dev/pts/25" COLUMNS="181" LINES="49"]
+_ycho@beta:~/Adversarial-Pose-Estimation.lsp.V.4\[ycho@beta Adversarial-Pose-Estimation.lsp.V.4]$ tmux a[2Pexitnvidia-smish test-Adversarialmodel-pretrain-with-keepdimension.sh[5P-pretrain-with-keepdimension.shtmux a[Ksh test-Adversarial-pretrain-with-keepdimension.shmodel-pretrain-with-keepdimension.sh[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cnvidia-smi[Ksh test-Adversarialmodel-pretrain-with-keepdimension.sh[5P-pretrain-with-keepdimension.shtmux a[Ksh test-Adversarial-pretrain-with-keepdimension.sh[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K.sh
+Model loaded
+model is in evaluation mode
+total lenght of the dataset :  4
+0it [00:00, ?it/s]/home/ycho/posenet/lib/python3.7/site-packages/torch/nn/modules/upsampling.py:129: UserWarning: nn.Upsample is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.{} is deprecated. Use nn.functional.interpolate instead.".format(self.name))
+pred shape:  256
+sum of present key points 252
+Accurately detected : 209
+acc[1] = 0.829365
+sum of present key points 256
+Accurately detected : 217
+acc[2] = 0.847656
+sum of present key points 256
+Accurately detected : 217
+acc[3] = 0.847656
+sum of present key points 255
+Accurately detected : 204
+acc[4] = 0.800000
+sum of present key points 254
+Accurately detected : 211
+acc[5] = 0.830709
+sum of present key points 249
+Accurately detected : 206
+acc[6] = 0.827309
+sum of present key points 254
+Accurately detected : 211
+acc[7] = 0.830709
+sum of present key points 254
+Accurately detected : 215
+acc[8] = 0.846457
+sum of present key points 256
+Accurately detected : 229
+acc[9] = 0.894531
+sum of present key points 255
+Accurately detected : 227
+acc[10] = 0.890196
+sum of present key points 254
+Accurately detected : 210
+acc[11] = 0.826772
+sum of present key points 256
+Accurately detected : 202
+acc[12] = 0.789062
+sum of present key points 256
+Accurately detected : 238
+acc[13] = 0.929688
+sum of present key points 249
+Accurately detected : 236
+acc[14] = 0.947791
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Validation avg acc_1: 0.852707, eval cnt: 14.000000
+current position : 0 
+1it [00:11, 11.97s/it]pred shape:  256
+sum of present key points 256
+Accurately detected : 206
+acc[1] = 0.804688
+sum of present key points 256
+Accurately detected : 216
+acc[2] = 0.843750
+sum of present key points 256
+Accurately detected : 205
+acc[3] = 0.800781
+sum of present key points 256
+Accurately detected : 206
+acc[4] = 0.804688
+sum of present key points 255
+Accurately detected : 214
+acc[5] = 0.839216
+sum of present key points 254
+Accurately detected : 214
+acc[6] = 0.842520
+sum of present key points 256
+Accurately detected : 194
+acc[7] = 0.757812
+sum of present key points 255
+Accurately detected : 210
+acc[8] = 0.823529
+sum of present key points 255
+Accurately detected : 219
+acc[9] = 0.858824
+sum of present key points 255
+Accurately detected : 224
+acc[10] = 0.878431
+sum of present key points 256
+Accurately detected : 196
+acc[11] = 0.765625
+sum of present key points 256
+Accurately detected : 197
+acc[12] = 0.769531
+sum of present key points 256
+Accurately detected : 243
+acc[13] = 0.949219
+sum of present key points 254
+Accurately detected : 237
+acc[14] = 0.933071
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Validation avg acc_1: 0.833692, eval cnt: 14.000000
+current position : 1 
+2it [00:23, 11.84s/it]pred shape:  256
+sum of present key points 256
+Accurately detected : 205
+acc[1] = 0.800781
+sum of present key points 255
+Accurately detected : 213
+acc[2] = 0.835294
+sum of present key points 256
+Accurately detected : 220
+acc[3] = 0.859375
+sum of present key points 256
+Accurately detected : 216
+acc[4] = 0.843750
+sum of present key points 256
+Accurately detected : 217
+acc[5] = 0.847656
+sum of present key points 255
+Accurately detected : 216
+acc[6] = 0.847059
+sum of present key points 253
+Accurately detected : 204
+acc[7] = 0.806324
+sum of present key points 256
+Accurately detected : 212
+acc[8] = 0.828125
+sum of present key points 256
+Accurately detected : 226
+acc[9] = 0.882812
+sum of present key points 255
+Accurately detected : 220
+acc[10] = 0.862745
+sum of present key points 256
+Accurately detected : 203
+acc[11] = 0.792969
+sum of present key points 255
+Accurately detected : 198
+acc[12] = 0.776471
+sum of present key points 255
+Accurately detected : 243
+acc[13] = 0.952941
+sum of present key points 253
+Accurately detected : 235
+acc[14] = 0.928854
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Validation avg acc_1: 0.847511, eval cnt: 14.000000
+current position : 2 
+3it [00:34, 11.74s/it]pred shape:  232
+sum of present key points 232
+Accurately detected : 186
+acc[1] = 0.801724
+sum of present key points 232
+Accurately detected : 193
+acc[2] = 0.831897
+sum of present key points 232
+Accurately detected : 199
+acc[3] = 0.857759
+sum of present key points 232
+Accurately detected : 188
+acc[4] = 0.810345
+sum of present key points 232
+Accurately detected : 196
+acc[5] = 0.844828
+sum of present key points 232
+Accurately detected : 189
+acc[6] = 0.814655
+sum of present key points 230
+Accurately detected : 182
+acc[7] = 0.791304
+sum of present key points 230
+Accurately detected : 192
+acc[8] = 0.834783
+sum of present key points 232
+Accurately detected : 196
+acc[9] = 0.844828
+sum of present key points 232
+Accurately detected : 190
+acc[10] = 0.818966
+sum of present key points 231
+Accurately detected : 183
+acc[11] = 0.792208
+sum of present key points 231
+Accurately detected : 173
+acc[12] = 0.748918
+sum of present key points 232
+Accurately detected : 215
+acc[13] = 0.926724
+sum of present key points 230
+Accurately detected : 215
+acc[14] = 0.934783
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Validation avg acc_1: 0.832409, eval cnt: 14.000000
+current position : 3 
+4it [00:45, 11.32s/it]4it [00:45, 11.34s/it]
+Validation avg acc: 0.841580, eval cnt: 56.000000
+_ycho@beta:~/Adversarial-Pose-Estimation.lsp.V.4\[ycho@beta Adversarial-Pose-Estimation.lsp.V.4]$ exit
+exit
+
+Script done on 2020-05-31 11:52:57+02:00 [COMMAND_EXIT_CODE="0"]

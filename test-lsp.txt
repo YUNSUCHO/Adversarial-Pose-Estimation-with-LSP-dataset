@@ -1,0 +1,225 @@
+Script started on 2020-04-28 13:16:19+02:00 [TERM="screen" TTY="/dev/pts/25" COLUMNS="80" LINES="23"]
+_ycho@beta:~/Adversarial-Pose-Estimation.lsp.V.4\[ycho@beta Adversarial-Pose-Estimation.lsp.V.4]$ tmux a[K[K[K[K[K[KCUDA_VISIBLE_DEVICES=1 sh test. sh
+Model loaded
+model is in evaluation mode
+total lenght of the dataset :  4
+0it [00:00, ?it/s]/home/ycho/posenet/lib/python3.7/site-packages/torch/nn/modules/upsampling.py:129: UserWarning: nn.Upsample is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.{} is deprecated. Use nn.functional.interpolate instead.".format(self.name))
+pred shape:  250
+sum of present key points 246
+Accurately detected : 206
+acc[1] = 0.837398
+sum of present key points 250
+Accurately detected : 214
+acc[2] = 0.856000
+sum of present key points 250
+Accurately detected : 211
+acc[3] = 0.844000
+sum of present key points 249
+Accurately detected : 198
+acc[4] = 0.795181
+sum of present key points 248
+Accurately detected : 208
+acc[5] = 0.838710
+sum of present key points 243
+Accurately detected : 203
+acc[6] = 0.835391
+sum of present key points 248
+Accurately detected : 205
+acc[7] = 0.826613
+sum of present key points 248
+Accurately detected : 210
+acc[8] = 0.846774
+sum of present key points 250
+Accurately detected : 224
+acc[9] = 0.896000
+sum of present key points 249
+Accurately detected : 222
+acc[10] = 0.891566
+sum of present key points 248
+Accurately detected : 206
+acc[11] = 0.830645
+sum of present key points 250
+Accurately detected : 196
+acc[12] = 0.784000
+sum of present key points 250
+Accurately detected : 232
+acc[13] = 0.928000
+sum of present key points 243
+Accurately detected : 230
+acc[14] = 0.946502
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Validation avg acc_1: 0.854056, eval cnt: 14.000000
+current position : 0 
+1it [00:12, 12.11s/it]pred shape:  250
+sum of present key points 250
+Accurately detected : 200
+acc[1] = 0.800000
+sum of present key points 250
+Accurately detected : 209
+acc[2] = 0.836000
+sum of present key points 250
+Accurately detected : 200
+acc[3] = 0.800000
+sum of present key points 250
+Accurately detected : 201
+acc[4] = 0.804000
+sum of present key points 249
+Accurately detected : 207
+acc[5] = 0.831325
+sum of present key points 248
+Accurately detected : 208
+acc[6] = 0.838710
+sum of present key points 250
+Accurately detected : 191
+acc[7] = 0.764000
+sum of present key points 249
+Accurately detected : 205
+acc[8] = 0.823293
+sum of present key points 249
+Accurately detected : 214
+acc[9] = 0.859438
+sum of present key points 249
+Accurately detected : 217
+acc[10] = 0.871486
+sum of present key points 250
+Accurately detected : 192
+acc[11] = 0.768000
+sum of present key points 250
+Accurately detected : 195
+acc[12] = 0.780000
+sum of present key points 250
+Accurately detected : 238
+acc[13] = 0.952000
+sum of present key points 248
+Accurately detected : 233
+acc[14] = 0.939516
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Validation avg acc_1: 0.833412, eval cnt: 14.000000
+current position : 1 
+2it [00:23, 12.04s/it]pred shape:  250
+sum of present key points 250
+Accurately detected : 200
+acc[1] = 0.800000
+sum of present key points 249
+Accurately detected : 206
+acc[2] = 0.827309
+sum of present key points 250
+Accurately detected : 214
+acc[3] = 0.856000
+sum of present key points 250
+Accurately detected : 209
+acc[4] = 0.836000
+sum of present key points 250
+Accurately detected : 213
+acc[5] = 0.852000
+sum of present key points 249
+Accurately detected : 205
+acc[6] = 0.823293
+sum of present key points 247
+Accurately detected : 197
+acc[7] = 0.797571
+sum of present key points 250
+Accurately detected : 205
+acc[8] = 0.820000
+sum of present key points 250
+Accurately detected : 220
+acc[9] = 0.880000
+sum of present key points 249
+Accurately detected : 215
+acc[10] = 0.863454
+sum of present key points 250
+Accurately detected : 196
+acc[11] = 0.784000
+sum of present key points 249
+Accurately detected : 192
+acc[12] = 0.771084
+sum of present key points 249
+Accurately detected : 236
+acc[13] = 0.947791
+sum of present key points 247
+Accurately detected : 229
+acc[14] = 0.927126
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Validation avg acc_1: 0.841831, eval cnt: 14.000000
+current position : 2 
+3it [00:36, 12.15s/it]pred shape:  250
+sum of present key points 250
+Accurately detected : 202
+acc[1] = 0.808000
+sum of present key points 250
+Accurately detected : 210
+acc[2] = 0.840000
+sum of present key points 250
+Accurately detected : 217
+acc[3] = 0.868000
+sum of present key points 250
+Accurately detected : 206
+acc[4] = 0.824000
+sum of present key points 250
+Accurately detected : 212
+acc[5] = 0.848000
+sum of present key points 250
+Accurately detected : 206
+acc[6] = 0.824000
+sum of present key points 248
+Accurately detected : 199
+acc[7] = 0.802419
+sum of present key points 248
+Accurately detected : 210
+acc[8] = 0.846774
+sum of present key points 250
+Accurately detected : 214
+acc[9] = 0.856000
+sum of present key points 250
+Accurately detected : 206
+acc[10] = 0.824000
+sum of present key points 249
+Accurately detected : 197
+acc[11] = 0.791165
+sum of present key points 249
+Accurately detected : 189
+acc[12] = 0.759036
+sum of present key points 250
+Accurately detected : 233
+acc[13] = 0.932000
+sum of present key points 248
+Accurately detected : 232
+acc[14] = 0.935484
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Validation avg acc_1: 0.839920, eval cnt: 14.000000
+current position : 3 
+4it [00:47, 11.95s/it]4it [00:47, 11.97s/it]
+Validation avg acc: 0.842305, eval cnt: 56.000000
+_ycho@beta:~/Adversarial-Pose-Estimation.lsp.V.4\[ycho@beta Adversarial-Pose-Estimation.lsp.V.4]$ 
+_ycho@beta:~/Adversarial-Pose-Estimation.lsp.V.4\[ycho@beta Adversarial-Pose-Estimation.lsp.V.4]$ 
+_ycho@beta:~/Adversarial-Pose-Estimation.lsp.V.4\[ycho@beta Adversarial-Pose-Estimation.lsp.V.4]$ 
+_ycho@beta:~/Adversarial-Pose-Estimation.lsp.V.4\[ycho@beta Adversarial-Pose-Estimation.lsp.V.4]$ [K[ycho@beta Adversarial-Pose-Estimation.lsp.V.4]$ [K[ycho@beta Adversarial-Pose-Estimation.lsp.V.4]$ [K[ycho@beta Adversarial-Pose-Estimation.lsp.V.4]$ [K[ycho@beta Adversarial-Pose-Estimation.lsp.V.4]$ [K[ycho@beta Adversarial-Pose-Estimation.lsp.V.4]$ [K[ycho@beta Adversarial-Pose-Estimation.lsp.V.4]$ [K[ycho@beta Adversarial-Pose-Estimation.lsp.V.4]$ [K[ycho@beta Adversarial-Pose-Estimation.lsp.V.4]$ 
+_ycho@beta:~/Adversarial-Pose-Estimation.lsp.V.4\[ycho@beta Adversarial-Pose-Estimation.lsp.V.4]$ 
+_ycho@beta:~/Adversarial-Pose-Estimation.lsp.V.4\[ycho@beta Adversarial-Pose-Estimation.lsp.V.4]$ nvidia-smi
+Tue Apr 28 13:21:21 2020       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 430.26       Driver Version: 430.26       CUDA Version: 10.2     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|===============================+======================+======================|
+|   0  TITAN Xp            Off  | 00000000:02:00.0 Off |                  N/A |
+| 46%   74C    P2   145W / 250W |   3553MiB / 12196MiB |      0%   E. Process |
++-------------------------------+----------------------+----------------------+
+|   1  TITAN Xp            Off  | 00000000:81:00.0 Off |                  N/A |
+| 41%   58C    P8    11W / 250W |     10MiB / 12196MiB |      0%   E. Process |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                       GPU Memory |
+|  GPU       PID   Type   Process name                             Usage      |
+|=============================================================================|
+|    0     11758      C   python                                      3543MiB |
++-----------------------------------------------------------------------------+
+_ycho@beta:~/Adversarial-Pose-Estimation.lsp.V.4\[ycho@beta Adversarial-Pose-Estimation.lsp.V.4]$ cd
+_ycho@beta:~\[ycho@beta ~]$ source posenet/bin/activate
+_ycho@beta:~\(posenet) [ycho@beta ~]$ exit
+exit
+
+Script done on 2020-04-28 13:25:01+02:00 [COMMAND_EXIT_CODE="0"]
