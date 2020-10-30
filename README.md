@@ -33,6 +33,7 @@ The results of this implementation:
 
 
 ### Stack-hour-glass Network(In supervised setup):
+- Red dot stands for the ground-truth co-ordinate joints, yellow dot stands for the prediction of the proposed model. 
 <img src="https://github.com/YUNSUCHO/Adversarial-Pose-Enstimation/blob/main/README/original.png" width="200px"/><img src="https://github.com/YUNSUCHO/Adversarial-Pose-Enstimation/blob/main/README/supervised%20mod.png" width="200px"/>
 
 ### localization rate of diffent setups on the test split:
