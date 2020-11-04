@@ -1,9 +1,4 @@
-# Adversarial-Pose-Enstimation
-
-
-
-Investigation on adversarial learning for pose prediction in Leeds Sports Pose Dataset
-
+# Adversarial-Pose-Enstimation with LSP dataset
 
 Pytorch implementation of chen et al. "Adversarial PoseNet" for landmark localization on digital images.
 The architecture was  proposed by [Yu Chen, Chunhua Shen, Xiu-Shen Wei, Lingqiao Liu, Jian Yang](https://scholar.google.com/citations?user=IWZubqUAAAAJ&hl=zh-CN) in 
