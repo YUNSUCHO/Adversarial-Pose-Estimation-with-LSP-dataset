@@ -16,9 +16,11 @@ The architecture was  proposed by [Yu Chen, Chunhua Shen, Xiu-Shen Wei, Lingqiao
 Based on the given RGB dataset, the heatmap has been created with key-points. To prevent the model get over-fitting situation, data augmentation techniques,which is one of the regularization has been applied. 
 
 Followings are the examples of the RGB images in the given dataset and it's heatmap.
+
 <img src="https://github.com/YUNSUCHO/Adversarial-Pose-Enstimation/blob/main/README/Lanmark%20localization%20.png" width="300px"/>
 
 Followings are the examples of the RGB images in the given dataset and it's heatmap with key-points after applying the data augmentation techniques in data pre-processing part.
+
 <img src="https://github.com/YUNSUCHO/Adversarial-Pose-Enstimation/blob/main/README/Lanmark%20localization%20(after%20augmentation).png" width="300px"/>
 
 
