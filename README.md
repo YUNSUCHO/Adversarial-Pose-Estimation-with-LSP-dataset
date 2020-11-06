@@ -35,8 +35,8 @@ For better understanding of the performance of the given model in two different 
 ### localization rate of diffent setups on the test split:
 
 The PCKt@0.2 metrics has been used to measure the test accuracy of the proposed model.
-The best accuracy of the proposed model that have been trained in supervised way is 82.40%
-The best accuracy of the proposed model that have been trained in adversarial way using GAN framework is 85.29%
+The best accuracy of the proposed model that have been trained in supervised way is 82.40%.
+The best accuracy of the proposed model that have been trained in adversarial way using GAN framework is 85.29%.
 As a result, the results shows that the proposed model perform better in adversarial way to predict the human key-points with LSP dataset.
 
 <img src="https://github.com/YUNSUCHO/Adversarial-Pose-Enstimation/blob/main/README/Screen%20Shot%202020-10-29%20at%205.27.18%20PM.png" width="300px"/>
