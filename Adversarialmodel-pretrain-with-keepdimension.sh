@@ -14,6 +14,6 @@ python trainmodel-adversarial-mode-exp24.py \
 --epochs 230 \
 --dataset  'lsp' 
 
---s
+--dodododo
 
 
