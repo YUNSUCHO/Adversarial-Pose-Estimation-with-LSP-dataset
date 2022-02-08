@@ -1,9 +1,4 @@
-# Adversarial-Pose-Enstimation
-
-
-
-Investigation on adversarial learning for pose prediction in Leeds Sports Pose Dataset
-
+# Adversarial-Pose-Enstimation with LSP dataset
 
 Pytorch implementation of chen et al. "Adversarial PoseNet" for landmark localization on digital images.
 The architecture was  proposed by [Yu Chen, Chunhua Shen, Xiu-Shen Wei, Lingqiao Liu, Jian Yang](https://scholar.google.com/citations?user=IWZubqUAAAAJ&hl=zh-CN) in 
@@ -13,19 +8,21 @@ The architecture was  proposed by [Yu Chen, Chunhua Shen, Xiu-Shen Wei, Lingqiao
 
 ## Lanmark localization 
 
+Based on the given RGB dataset, the heatmap has been created with key-points. To prevent the model get over-fitting situation, data augmentation techniques,which is one of the regularization has been applied. 
+
+Followings are the examples of the RGB images in the given dataset and it's heatmap.
 
 <img src="https://github.com/YUNSUCHO/Adversarial-Pose-Enstimation/blob/main/README/Lanmark%20localization%20.png" width="300px"/>
 
-Before the augmentation techniques applied on the dataset
+Followings are the examples of the RGB images in the given dataset and it's heatmap with key-points after applying the data augmentation techniques in data pre-processing part.
 
 <img src="https://github.com/YUNSUCHO/Adversarial-Pose-Enstimation/blob/main/README/Lanmark%20localization%20(after%20augmentation).png" width="300px"/>
-
-After the augmentation techniques applied on the dataset
 
 
 ##  Results Visualization
 The results of this implementation:
-- Red dot stands for the ground-truth co-ordinate joints, yellow dot stands for the prediction of the proposed model. 
+In two different setup, the left side image is the ground-truth images with the key-points and the right side image is the output of the proposed model. In each images of the result,the red dot stands for the ground-truth key-points and the yellow dot stands for the prediction of the proposed model. 
+For better understanding of the performance of the given model in two different setup,same image in the given dataset has been compared in two different settings.
 
 ### Adversarial PoseNet(In Adversarial setup using GAN framework):
 <img src="https://github.com/YUNSUCHO/Adversarial-Pose-Enstimation/blob/main/README/original.png" width="200px"/><img src="https://github.com/YUNSUCHO/Adversarial-Pose-Enstimation/blob/main/README/Ad%20mode.png" width="200px"/>
@@ -37,7 +34,10 @@ The results of this implementation:
 
 ### localization rate of diffent setups on the test split:
 
-The PCKt@0.2 metrics has been used to measure the performance of the proposed model.
+The PCKt@0.2 metrics has been used to measure the test accuracy of the proposed model.
+The best accuracy of the proposed model that have been trained in supervised way is 82.40%.
+The best accuracy of the proposed model that have been trained in adversarial way using GAN framework is 85.29%.
+As a result, the results shows that the proposed model perform better in adversarial way to predict the human key-points with LSP dataset.
 
 <img src="https://github.com/YUNSUCHO/Adversarial-Pose-Enstimation/blob/main/README/Screen%20Shot%202020-10-29%20at%205.27.18%20PM.png" width="300px"/>
 
